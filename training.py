@@ -1,6 +1,5 @@
 
 import numpy as np
-from pyparsing import WordStart
 import tensorflow as tf
 import spacy
 import os
