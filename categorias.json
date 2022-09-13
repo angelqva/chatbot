@@ -1,8 +1,8 @@
 {
-	"intentos": [
+	"categorias": [
 		{
 			"categoria": "saludos",
-			"sentencias": ["hola", "hey", "buenos dias", "que tal"],
+			"sentencias": ["hola", "hey", "buenos dias", "hola, que tal"],
 			"respuestas": [
 				"hola",
 				"buenos días",
@@ -15,7 +15,9 @@
 				"hasta pronto",
 				"tenga un buen dia",
 				"nos vemos",
-				"hasta luego"
+				"hasta luego",
+				"adios",
+				"fue un gusto hablar contigo"
 			],
 			"respuestas": [
 				"hasta luego",
@@ -51,7 +53,7 @@
 			],
 			"respuestas": [
 				"tengo 6 meses de vida",
-				"6 meses",
+				"6 meses es lo que tengo de creada",
 				"Angel me creo hace 6 meses"
 			]
 		},

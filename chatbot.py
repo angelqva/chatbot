@@ -1,8 +1,6 @@
-from ast import While
 import random
 import json
 import pickle
-from unittest import result
 import numpy as np
 import spacy
 import os
@@ -13,7 +11,7 @@ os.environ["CUDA_VISIBLE_DEVICES"] = ""
 nlp = spacy.load('es_dep_news_trf')
 
 intentos = json.loads(codecs.open(
-    'intentos.json', 'r', encoding='utf-8').read())
+    'categorias.json', 'r', encoding='utf-8').read())
 
 palabras = pickle.load(open('palabras.pkl', 'rb'))
 categorias = pickle.load(open('categorias.pkl', 'rb'))
@@ -42,15 +40,15 @@ def prediccion(sentencia):
     listado = []
     for r in resultados:
         listado.append(
-            {'intento': categorias[r[0]], 'probabilidad': str(r[1])})
+            {'categoria': categorias[r[0]], 'probabilidad': str(r[1])})
     print("prediccion-listado: ", listado)
     return listado
 
 
 def respuesta(sentencia):
 
-    categoria = prediccion(sentencia)[0]["intento"]
-    datos = intentos["intentos"]
+    categoria = prediccion(sentencia)[0]["categoria"]
+    datos = intentos["categorias"]
     res = "No tengo muchos temas para hablar, hablemos de otra cosa"
     for i in datos:
         if i["categoria"] == categoria:

@@ -14,14 +14,14 @@ nlp = spacy.load('es_dep_news_trf')
 
 
 intentos = json.loads(codecs.open(
-    'intentos.json', 'r', encoding='utf-8').read())
+    'categorias.json', 'r', encoding='utf-8').read())
 
 documentos = []
 palabras = set()
 categorias = []
 ignorar = ["?", "!", ",", ".", ":"]
 
-for intento in intentos["intentos"]:
+for intento in intentos["categorias"]:
     categoria = intento["categoria"]
     lematizacion = set()
     categorias.append(categoria)
@@ -78,6 +78,6 @@ opt = tf.keras.optimizers.SGD(
 model.compile(loss='categorical_crossentropy',
               optimizer=opt, metrics=['accuracy'])
 hist = model.fit(np.array(train_x), np.array(train_y),
-                 batch_size=5, epochs=1000, verbose=1)
+                 batch_size=5, epochs=380, verbose=1)
 model.save('chatbot_model.h5', hist)
 print("Done")
