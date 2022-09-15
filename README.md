@@ -14,7 +14,7 @@ python -m venv venv
 
 ## Requisitos Principal
 
-__Tensorflow, TesseractOCR, KerasOCR, Spacy's__ y los demas requitos en __requirements.txt__
+__Tensorflow, TesseractOCR, KerasOCR, Spacy's__ y los demas requitos en __requeriments.txt__
 
 ```bash
 pip install -r requeriments.txt
