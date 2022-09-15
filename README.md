@@ -6,6 +6,13 @@ Solución y desarrollo del proyecto de inteligencia artificial que trata sobre l
 
 https://github.com/angelqva/chatbot-image-text/raw/main/Informe.docx
 
+## Clonar el Proyecto
+
+```bash
+git@github.com:angelqva/chatbot-image-text.git
+cd chatbot-image-text
+```
+
 ## Entorno virtual
 
 ```bash
