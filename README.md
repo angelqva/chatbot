@@ -10,12 +10,12 @@ https://github.com/angelqva/chatbot-image-text/raw/main/Informe.docx
 
 ```bash
 git@github.com:angelqva/chatbot-image-text.git
-cd chatbot-image-text
 ```
 
 ## Entorno virtual
 
 ```bash
+cd chatbot-image-text
 python -m venv venv
 ```
 
