@@ -20,6 +20,16 @@ Todo esto se encuentra en el proyecto:
 
 https://github.com/angelqva/reconocimiento-texto/tree/main/lineas
 
+## Pruebas en las Notebooks
+
+### PCA Y KMeans
+https://github.com/angelqva/reconocimiento-texto/blob/main/lineas/PCA_KMEAN.ipynb
+
+### Reconocimiento de EMNIST 0-9A-Za-z
+https://github.com/angelqva/reconocimiento-texto/blob/main/lineas/caracteres.ipynb
+
+En estas notebooks están las pruebas de el proyecto
+
 ## Pruebas usando librerias se encuentran en este proyecto
 
 ### Librerias utilizadas
