@@ -6,47 +6,23 @@ Solución y desarrollo del proyecto de inteligencia artificial que trata sobre l
 
 https://github.com/angelqva/chatbot-image-text/raw/main/Informe.docx
 
-## Clonar el Proyecto
+## Pruebas del proyecto en la Notebook
 
-```bash
-git@github.com:angelqva/chatbot-image-text.git
-```
+* https://github.com/angelqva/chatbot-image-text/blob/main/Notebook%201.ipynb
 
-## Entorno virtual
+## Reconocimiento de Texto
 
-```bash
-cd chatbot-image-text
-python -m venv venv
-```
+* Construccion de la red
+* Utilizar PCA y KMeans
+* Creando varias redes utilizando Tensorflow y Keras
 
-## Requisitos Principal
+Todo esto se encuentra en el proyecto:
 
-__Tensorflow, TesseractOCR, KerasOCR, Spacy's__ y los demas requitos en __requeriments.txt__
+https://github.com/angelqva/reconocimiento-texto/tree/main/lineas
 
-```bash
-pip install -r requeriments.txt
-```
+## Pruebas usando librerias se encuentran en este proyecto
 
-## Crear el modelo creado y entrenado en red.py
+### Librerias utilizadas
 
-```bash
-python red.py
-```
-
-## Correr el chatbot
-
-```bash
-python chatbot.py
-```
-
-## Extracción de texto con TesseractOCR
-
-```bash
-python tesseract.py
-```
-
-## Extracción de texto con KerasOCR
-
-```bash
-python kerasocr.py
-```
+* KerasOCR
+* Tesseract
